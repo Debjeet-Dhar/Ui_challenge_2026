@@ -56,8 +56,7 @@ project-folder/
 
 🌐 Live Demo
 
-👉 (Add your hosted link here)
-
+👉 https://e-commerce-website-productpage.vercel.app/
 ---
 
 💻 GitHub Repository
