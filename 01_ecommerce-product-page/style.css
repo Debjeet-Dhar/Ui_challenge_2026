@@ -209,3 +209,86 @@ span{
   font-weight: 500;
 }
 
+@media (min-width<= 768px){
+  body{
+    font-size: 12px;
+  }
+  placeholder , .samples{
+    width: 84%;
+  }
+  .samples{
+ gap: 12px;
+  }
+
+}
+
+@media (max-width : 480px) {
+  .main{
+    width: 90%;
+    margin: auto;
+  }
+  ul{
+    display: none;
+  }
+  .product_layout{
+    flex-flow: column;
+    justify-content: center;
+}
+.images{
+  width: 100%;
+}
+.texts{
+  margin-top: 5%;
+  width: 100%;
+}
+.product_layout{
+  padding: initial;
+  margin-top: 3%;
+
+}
+.samples , .placeholder{
+  width: 100%;
+}
+.company{
+  font-size: large;
+
+}
+.title{
+  font-size: 16px ;
+}
+
+.paragraph{
+  font-size: large;
+ 
+}
+.last{
+  width: 100%;
+  flex-flow: column;
+}
+.icon{
+  width: 13px;
+}
+.quantity{
+  padding: 16px 17px;
+  width: 100%;
+  justify-content: space-between;
+}
+.addtocart{
+  justify-content: center;
+  padding: 16px 29px;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.value{
+  font-size: 17px;
+}
+.addtocart > .icon {
+  width: 20px;
+  font-weight: 800;
+}
+.addtocart > .text{
+  font-size: 18px;
+  font-weight: 500;
+}
+    
+}
