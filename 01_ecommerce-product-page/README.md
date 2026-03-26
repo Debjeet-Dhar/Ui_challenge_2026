@@ -1,26 +1,82 @@
-# Frontend Mentor - E-commerce product page
+🛒 E-commerce Product Page
 
-![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
+🚀 Project Overview
 
-## Welcome! 👋
+This is a responsive e-commerce product page built using HTML, CSS, and JavaScript.
+The project focuses on building a clean UI and implementing interactive features like image switching using thumbnails.
 
-Thanks for checking out this front-end coding challenge.
+---
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+✨ Features
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+- 📸 Dynamic product image switching (thumbnail → main image)
+- 🎯 Clean and modern UI design
+- 📱 Responsive layout (mobile + desktop)
+- ➕ Product quantity selector (UI ready / JS ready)
+- 🛍️ Add to cart button (basic interaction)
 
-## The challenge
+---
 
-Your challenge is to build out this e-commerce product page and get it looking as close to the design as possible.
+🧠 What I Learned
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- DOM manipulation using JavaScript
+- Event handling (click events)
+- Working with image sources dynamically
+- Building responsive layouts using CSS
+- Structuring real-world UI projects
 
-Your users should be able to:
+---
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Open a lightbox gallery by clicking on the large product image
+🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+---
+
+📂 Project Structure demo 
+
+project-folder/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+
+---
+
+🎯 Future Improvements
+
+- Add cart functionality with data storage
+- Improve animations and transitions
+- Add lightbox image preview
+- Enhance mobile experience
+
+---
+
+🌐 Live Demo
+
+👉 https://e-commerce-website-productpage.vercel.app/
+
+---
+
+💻 GitHub Repository
+
+👉 (Add your repo link here)
+
+---
+
+🙋‍♂️ About Me
+
+I am a beginner full-stack web developer focused on building real-world projects and improving my development skills step by step.
+
+---
+
+🔥 Note
+
+This is part of my UI Challenge Series where I aim to build multiple projects to strengthen my frontend development skills.
+
+---- Open a lightbox gallery by clicking on the large product image
 - Switch the large product image by clicking on the small thumbnail images
 - Add items to the cart
 - View the cart and remove items from it
