@@ -23,6 +23,9 @@ body{
   justify-content: space-between;
   padding: 9px 8px;
 }
+.initialPart > .mobail_nav{
+  display: none;
+}
 .initialPart{
   display: flex;
   align-items: center;
@@ -45,6 +48,7 @@ li{
 }
 .cart > img{
   width: 18px;
+  cursor: pointer;
 }
 .profile {
   display: flex;
@@ -227,9 +231,25 @@ span{
     width: 90%;
     margin: auto;
   }
-  ul{
+  .nav{
     display: none;
   }
+  .round {
+  width: 30px;
+  height: 30px;
+}
+.restPart{
+  gap: 20px;
+}
+.initialPart {
+  align-items: center;
+  gap: 10px;
+}
+  .initialPart > .mobail_nav{
+  display: flex;
+  align-items: center;
+}
+
   .product_layout{
     flex-flow: column;
     justify-content: center;
@@ -254,16 +274,17 @@ span{
 
 }
 .title{
-  font-size: 16px ;
+  font-size: 15px ;
 }
 
 .paragraph{
-  font-size: large;
+  font-size: medium;
  
 }
 .last{
   width: 100%;
   flex-flow: column;
+  gap: 13px;
 }
 .icon{
   width: 13px;
